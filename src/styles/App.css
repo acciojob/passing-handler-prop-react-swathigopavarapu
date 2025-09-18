@@ -4,9 +4,11 @@ html, body {
 }
 
 #master {
-    height: 75%;
+    height: 40%;
     vertical-align: baseline;
     padding-top: 10%;
+    padding: 20px;
+    text-align: center;
 }
 
 #root {
@@ -38,16 +40,39 @@ button {
 }
 
 .btn-blue {
-    background: rgb(34, 193, 195);
-    color: black;
+    background-color: rgb(34, 193, 195);
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
 }
 
 .btn-orange {
-    background: rgb(221, 112, 18);
-    color: black;
+    background-color: rgb(221, 112, 18);
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
 }
 
 .btn-green {
-    background: rgb(44, 209, 88);
-    color: black;
+    background-color: rgb(44, 209, 88);
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.fix-box {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #fff;
+  margin: 10px;
+  display: inline-block;
+  cursor: pointer;
 }
