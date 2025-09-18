@@ -1,16 +1,11 @@
+import React from "react";
 
-import React, { useState } from "react";
-
-const Selection = ({ applyColor }) => {
-  const [bgStyle, setBgStyle] = useState({ background: "" });
-
+const Selection = ({ background }) => {
   return (
     <div
       className="fix-box"
-      style={bgStyle}
-      onClick={() => applyColor(setBgStyle)}
+      style={{ background }}
     >
-      {/* The box content (optional) */}
     </div>
   );
 };

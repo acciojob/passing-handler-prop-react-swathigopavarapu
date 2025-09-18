@@ -1,13 +1,13 @@
 import React from 'react';
 
-const ColourSelector = (props) => {
-  const { config, selectNextBackground } = props;
+const ColourSelector = ({ config, selectNextBackground }) => {
   const { background, classname, label } = config;
 
   return (
     <button
       className={classname}
-      onClick={() => selectNextBackground({ background })}
+      data-testid={config.key}  // Add this so tests can find the button
+      onClick={() => selectNextBackground(background)}
     >
       {label}
     </button>
